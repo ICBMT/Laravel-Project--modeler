@@ -11,7 +11,7 @@ journey can be traced end to end.
 
 </div>
 
-![The atlas: architectural layers as decks](docs/screenshots/atlas-layers.png)
+![The atlas: architectural layers as decks](screenshots/atlas-layers.png)
 
 ---
 
@@ -33,18 +33,18 @@ journey can be traced end to end.
 
 | | |
 |---|---|
-| ![Request journey](docs/screenshots/request-journey.png) | ![Node inspector](docs/screenshots/node-focus.png) |
+| ![Request journey](screenshots/request-journey.png) | ![Node inspector](screenshots/node-focus.png) |
 | **Trace a request** — pick a route and follow the exact chain through middleware, controller, services and the tables it writes. | **Open any node** — details, connections, source code with the relevant lines highlighted, and the insights that touch it. |
-| ![Data view](docs/screenshots/data-view.png) | ![Scanning](docs/screenshots/scanning.png) |
+| ![Data view](screenshots/data-view.png) | ![Scanning](screenshots/scanning.png) |
 | **View presets** — Runtime, Code, Data (your ERD in 3D) and Everything, or filter by layer, type, module and relationship kind. | **Watch the scan** — the pipeline streams stage by stage with a live log. |
 
 ### Three ways to look at the same code
 
 | | |
 |---|---|
-| ![Architecture layers](docs/screenshots/atlas-layers.png) | ![Modules](docs/screenshots/modules-layout.png) |
+| ![Architecture layers](screenshots/atlas-layers.png) | ![Modules](screenshots/modules-layout.png) |
 | **Architecture layers** — one deck per layer, entrypoints on top down to persistence. Reading the atlas top to bottom is reading a request's path. | **Modules** — one disc per module, packed by size, each node on its layer's shelf. Answers "which module owns what" without losing "where it sits". |
-| ![Spiral](docs/screenshots/spiral-layout.png) | |
+| ![Spiral](screenshots/spiral-layout.png) | |
 | **Spiral** — a helix ordered by layer, then by weight. The whole codebase as one strand, biggest nodes first. | |
 
 ---
